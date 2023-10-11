@@ -1,0 +1,172 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color:#43565c ;
+}
+main{
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    width: 960px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img{
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+nav{
+    width: 960px;
+    height: 48px;
+    background:linear-gradient(#556972 , #2c393f);
+}
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    float: left;
+}
+.main-nav li a{
+    display: block;
+    width: 119px;
+    height: 48px;
+    border-right: 1px #415459;
+
+    text-align: center;
+    line-height: 48px;
+
+    font-family: arial;
+    font-weight: bold;
+    color: #a2b6be;
+    text-decoration: none;
+
+}
+.main-nav li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.ssss img{
+    margin-left: -10px;
+    width: 970px;
+}
+.servces{
+    width: 960px;
+    height: 270px;
+    background:linear-gradient(#4D646c , #43565c) ;
+}
+
+.l-serv{
+    height: 270px; width: 480px;
+    float: left;
+    position: relative;
+}
+.r-serv{
+    height: 270px; width: 480px;
+    float: right;
+    position: relative;
+}
+
+h3{
+    left: 20px; top: 20px;
+    color: green;
+    position: absolute;
+    font-family: arial; font-size: 15px;
+
+}
+.p1{
+    position: absolute;
+    font-family: arial; font-size: 15px;
+    color: white; 
+    left: 30px; top: 50px;
+}
+.p2{
+    position: absolute;
+    font-family: arial; font-size: 15px;
+    color: white; 
+    left: 30px; top: 175px;
+}
+.l-serv img{
+    right: 0px; top: 10px;
+    position: absolute;
+}
+.r-serv p{
+    width: 250px;
+}
+.r-serv ul{
+    left: 50px; top: 130px;
+    position: absolute;
+    font-family: arial;
+    font-size: 15px;
+    list-style-image: url(images/check1.png);
+
+}
+.r-serv ul li{
+    margin-bottom: 5px;
+}
+.img1{
+    position: absolute;
+   right: -13px; 
+    
+}
+.img2{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+
+}
+
+.sh{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mohamed{
+    height: 200px;
+    width: 960px;
+    background: linear-gradient(#43565c , #4D646c);
+    position: relative;
+}
+
+
+footer{
+    padding: 20px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer span{
+    color: green;
+    font-weight: bold;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.footer-nav li{
+    border-right: solid white 1px;
+    padding: 0px 10px;
+    
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-nav li a:hover{
+    text-decoration: underline;
+    color: green;
+    
+}
+
+
+
